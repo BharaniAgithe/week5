@@ -11,6 +11,6 @@ public class Factorial {
     public static void main(String[] args) {
         int number = 5;
         System.out.println("Factorial of " + number + " is " + compute(number));
-        System.out.println("Successful fact");
+        System.out.println(compute(5));
     }
 }
